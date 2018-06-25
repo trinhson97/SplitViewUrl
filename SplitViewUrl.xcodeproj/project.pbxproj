@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E73E66B620DE352000FD09E5 /* CacheImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E66B520DE352000FD09E5 /* CacheImage.swift */; };
+		E766527620DBA6AC00CDF054 /* Extention+UIImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766527520DBA6AC00CDF054 /* Extention+UIImages.swift */; };
 		E7E8836820D9F1650044CDAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8836720D9F1650044CDAD /* AppDelegate.swift */; };
 		E7E8836A20D9F1650044CDAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8836920D9F1650044CDAD /* ViewController.swift */; };
 		E7E8836D20D9F1650044CDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E8836B20D9F1650044CDAD /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E73E66B520DE352000FD09E5 /* CacheImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheImage.swift; sourceTree = "<group>"; };
+		E766527520DBA6AC00CDF054 /* Extention+UIImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention+UIImages.swift"; sourceTree = "<group>"; };
 		E7E8836420D9F1650044CDAD /* SplitViewUrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewUrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E8836720D9F1650044CDAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7E8836920D9F1650044CDAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E766527420DBA68700CDF054 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E766527520DBA6AC00CDF054 /* Extention+UIImages.swift */,
+				E73E66B520DE352000FD09E5 /* CacheImage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		E7E8835B20D9F1650044CDAD = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +90,7 @@
 		E7E8836620D9F1650044CDAD /* SplitViewUrl */ = {
 			isa = PBXGroup;
 			children = (
+				E766527420DBA68700CDF054 /* Utilities */,
 				E7E8836720D9F1650044CDAD /* AppDelegate.swift */,
 				E7E8836920D9F1650044CDAD /* ViewController.swift */,
 				E7E8836B20D9F1650044CDAD /* Main.storyboard */,
@@ -199,7 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E766527620DBA6AC00CDF054 /* Extention+UIImages.swift in Sources */,
 				E7E8836A20D9F1650044CDAD /* ViewController.swift in Sources */,
+				E73E66B620DE352000FD09E5 /* CacheImage.swift in Sources */,
 				E7E8836820D9F1650044CDAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
